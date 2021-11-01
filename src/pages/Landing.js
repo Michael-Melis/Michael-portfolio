@@ -21,8 +21,8 @@ const Landing = () => {
         </h2>
 
         <ButtonMailto
-          label="LET'S CHAT"
-          mailto="mailto:michael.melis@gmail.com"
+          label="LET'S CHAT ABOUT IT"
+          mailto="mailto:michael.melis@gmail.com?subject=Let's build something together"
         />
       </SecondMain>
       <StyledCalendar>
@@ -45,7 +45,7 @@ const Hello = styled.div`
 
   letter-spacing: 1rem;
   font-size: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   h1 {
     font-size: 1rem;
   }

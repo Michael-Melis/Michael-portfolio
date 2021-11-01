@@ -11,9 +11,21 @@ const ButtonMailto = ({ mailto, label }) => {
         e.preventDefault();
       }}
     >
-      {label}
+      <StyledButton>{label}</StyledButton>
     </Link>
   );
 };
+const StyledButton = styled.div`
+  width: 25rem;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  font-size: 2rem;
 
+  &:hover {
+    color: #2dd1a0;
+  }
+`;
 export default ButtonMailto;

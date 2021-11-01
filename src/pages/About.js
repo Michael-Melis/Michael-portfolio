@@ -1,4 +1,3 @@
-import { faDeaf } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import styled from "styled-components";
 import profilePic from "../img/MichaelRed.png";
@@ -45,7 +44,7 @@ const AboutDiv = styled.div`
   border-radius: 5%;
 
   h1 {
-    padding-top: 1rem;
+    padding-top: 4rem;
     font-size: 3rem;
     display: flex;
     justify-content: center;

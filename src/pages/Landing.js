@@ -1,9 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import mypic from "../img/MichaelRed.png";
+import ButtonMailto from "../components/ButtonMailto";
 import Calendar from "../components/Calendar";
-import Vektor1 from "../components/Vektor1";
 
 const Landing = () => {
   return (
@@ -13,14 +11,19 @@ const Landing = () => {
         <h2>I am</h2>
         <h1>
           <span>MICHAEL</span>
-          Front-End developer
         </h1>
+        <h1>Front-End developer</h1>
       </Hello>
       <SecondMain>
-        <h2>LET'S BUILD SOMETHING</h2>
+        <h2>WE CAN BUILD SOMETHING</h2>
         <h2>
           <span>TOGETHER</span>
         </h2>
+
+        <ButtonMailto
+          label="LET'S CHAT"
+          mailto="mailto:michael.melis@gmail.com"
+        />
       </SecondMain>
       <StyledCalendar>
         <Calendar />
@@ -37,26 +40,51 @@ const Hello = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 1rem 0rem 0rem 10rem;
+  margin: 1rem 0em 0rem 10rem;
   font-family: "Roboto Mono", monospace, sans-serif;
-  word-spacing: 0.5rem;
+
   letter-spacing: 1rem;
   font-size: 2rem;
+  margin-bottom: 5rem;
   h1 {
     font-size: 1rem;
-    margin-bottom: 8rem;
   }
   span {
-    margin-right: 3rem;
     font-size: 3.5rem;
     color: #2dd1a0;
   }
 `;
+const MailToButton = styled(ButtonMailto)`
+  background: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 5%;
+  box-shadow: 1px 1px 5px #2dd1a0;
+  font-family: "Roboto Mono", sans-serif;
+  &:hover {
+    color: black;
+    background-color: #2dd1a0;
+    transition: 0.5s;
+  }
+`;
 const SecondMain = styled(Hello)`
+  button {
+    background: #fff;
+    cursor: pointer;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px #2dd1a0;
+    font-family: "Roboto Mono", sans-serif;
+    &:hover {
+      color: black;
+      background-color: #2dd1a0;
+      transition: 0.5s;
+    }
+  }
   h2 {
-    margin-top: 1rem;
-
-    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -65,7 +93,7 @@ const SecondMain = styled(Hello)`
   }
 `;
 const StyledCalendar = styled.div`
-  margin: 1rem 0rem 0rem 10rem;
+  padding: 0rem 0rem 5rem 10rem;
 `;
 
 export default Landing;

@@ -20,6 +20,10 @@ function App() {
       </TopMenu>
       <Landing />
       <About />
+      <About />
+      <About />
+      <About />
+      <About />
     </div>
   );
 }
@@ -47,6 +51,7 @@ const TopMenu = styled.div`
     cursor: pointer;
     &:hover {
       color: #2dd1a0;
+      transition: 0.5s;
     }
   }
 `;

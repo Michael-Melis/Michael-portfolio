@@ -39,9 +39,10 @@ const AboutDiv = styled.div`
   padding: 2rem 0rem 0rem 10rem;
   font-family: "Roboto-mono", sans-serif;
   display: flex;
+
   flex-direction: column;
   min-height: 100vh;
-  border-radius: 20%;
+  border-radius: 5%;
 
   h1 {
     padding-top: 1rem;
@@ -49,13 +50,6 @@ const AboutDiv = styled.div`
     display: flex;
     justify-content: center;
     letter-spacing: 1rem;
-  }
-  h2 {
-    margin-top: 5rem;
-    font-size: 2rem;
-    span {
-      color: #2dd1a0;
-    }
   }
 `;
 const Description = styled.div`
@@ -66,9 +60,9 @@ const Description = styled.div`
   width: 100%;
   h2 {
     font-size: 2rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     span {
-      color: #2dd1a0;
+      color: #fe6f6e;
     }
   }
   img {
@@ -78,14 +72,14 @@ const Description = styled.div`
     width: 100%;
     height: 70vh;
     object-fit: cover;
-    border-radius: 20%;
+    border-radius: 5%;
   }
 `;
 const AboutDesc = styled.div`
   width: 50%;
 `;
 const Chance = styled.span`
-  color: #2dd1a0;
+  color: #fe6f6e;
   font-size: 5rem;
 `;
 

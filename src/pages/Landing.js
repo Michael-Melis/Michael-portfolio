@@ -8,14 +8,6 @@ import Vektor1 from "../components/Vektor1";
 const Landing = () => {
   return (
     <StyledLanding>
-      <TopMenu>
-        <ul>
-          <li>about</li>
-          <li>work</li>
-          <li>contact me</li>
-          <li>resume</li>
-        </ul>
-      </TopMenu>
       <Hello>
         <h2>Hello.</h2>
         <h2>I am</h2>
@@ -39,33 +31,7 @@ const Landing = () => {
 const StyledLanding = styled.div`
   min-height: 100vh;
 `;
-const TopMenu = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-content: center;
-  position: sticky;
-  top: 0;
-  background: #1d1d1d;
-  width: 100%;
 
-  ul {
-    display: flex;
-    flex-direction: row;
-    color: #fff;
-    align-items: flex-end;
-    font-family: "Roboto Mono", monospace;
-  }
-
-  li {
-    list-style: none;
-    margin: 1rem;
-    cursor: pointer;
-    &:hover {
-      color: #2dd1a0;
-    }
-  }
-`;
 const Hello = styled.div`
   color: #fff;
   display: flex;

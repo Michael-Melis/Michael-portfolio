@@ -3,8 +3,11 @@ import GlobalStyle from "./components/GlobalStyles";
 //import pages
 import Landing from "./pages/Landing";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 //styled components
 import styled from "styled-components";
+//import components
+import ButtonMailto from "./components/ButtonMailto";
 
 function App() {
   return (
@@ -20,10 +23,7 @@ function App() {
       </TopMenu>
       <Landing />
       <About />
-      <About />
-      <About />
-      <About />
-      <About />
+      <Contact />
     </div>
   );
 }

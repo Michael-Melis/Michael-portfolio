@@ -3,10 +3,11 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import mypic from "../img/MichaelRed.png";
 import Calendar from "../components/Calendar";
+import Vektor1 from "../components/Vektor1";
 
 const Landing = () => {
   return (
-    <>
+    <StyledLanding>
       <TopMenu>
         <ul>
           <li>about</li>
@@ -32,10 +33,12 @@ const Landing = () => {
       <StyledCalendar>
         <Calendar />
       </StyledCalendar>
-    </>
+    </StyledLanding>
   );
 };
-
+const StyledLanding = styled.div`
+  min-height: 100vh;
+`;
 const TopMenu = styled.div`
   display: flex;
   flex-direction: row;
@@ -43,7 +46,7 @@ const TopMenu = styled.div`
   align-content: center;
   position: sticky;
   top: 0;
-  background: #151515;
+  background: #1d1d1d;
   width: 100%;
 
   ul {
@@ -86,6 +89,7 @@ const Hello = styled.div`
 const SecondMain = styled(Hello)`
   h2 {
     margin-top: 1rem;
+
     width: 70%;
     display: flex;
     flex-direction: column;

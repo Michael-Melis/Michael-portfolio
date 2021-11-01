@@ -22,7 +22,7 @@ const Calendar = () => {
     <CalendarDiv>
       <MainDay>{`${today.getDay()}  `}</MainDay>
       <h3>
-        {`.${monthNames[today.getMonth() + 1]}. ${today.getFullYear()} `}{" "}
+        {`.${monthNames[today.getMonth()]}. ${today.getFullYear()} `}{" "}
         <span> I am currently avalaible for work</span>
       </h3>
     </CalendarDiv>

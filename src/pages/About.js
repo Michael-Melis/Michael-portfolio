@@ -8,7 +8,7 @@ const About = () => {
       <Description>
         <AboutDesc>
           <h2>
-            My name is <span>Michael Melis</span> born in
+            My name is <span>Michael Melis</span> borned in
             <span> Opava, Czechia</span> .
           </h2>
           <h2>
@@ -16,11 +16,11 @@ const About = () => {
             things.
           </h2>
           <h2>
-            I have one year experience in Front-End and have a firm knowladge of
-            HTML,CSS and JavaScript language
+            I have one year experience in Front-End, firm knowledge of HTML,CSS
+            and JavaScript language.
           </h2>
           <h2>
-            I am <span>TEAM</span> oriented <span>STRONG</span> individual
+            I am <span>TEAM</span> oriented and <span>STRONG</span> individual
             waiting for the <Chance>chance</Chance> to prove myself.
           </h2>
         </AboutDesc>

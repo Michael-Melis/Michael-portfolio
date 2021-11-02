@@ -6,6 +6,7 @@ const Project = ({ name, picture, link }) => {
     <div>
       <StyledProject>
         <h2>{name}</h2>
+
         <a href={link} target="_blank" rel="noreferrer">
           <img src={picture} alt=" the project" />
         </a>
@@ -19,8 +20,8 @@ const StyledProject = styled.div`
   padding: 2rem;
   border-radius: 5%;
   display: flex;
+  justify-content: space-between;
   h2 {
-    width: 49%;
   }
   a {
     width: 49%;
@@ -34,8 +35,8 @@ const StyledProject = styled.div`
       height: 100%;
       margin: 0;
       &:hover {
-        transition: ease-in 0.5s;
-        transform: scale(1.5);
+        transition: ease-in-out 1s;
+        transform: scale(1.1);
       }
     }
   }

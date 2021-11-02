@@ -90,6 +90,9 @@ const Description = styled.div`
 `;
 const AboutDesc = styled.div`
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   @media (max-width: 1300px) {
     h2 {
       font-size: 1rem;

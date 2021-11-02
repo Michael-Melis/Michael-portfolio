@@ -9,6 +9,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 
+import { HashLink } from "react-router-hash-link";
+
 const Contact = () => {
   return (
     <StyledContact>
@@ -46,8 +48,14 @@ const Contact = () => {
         </Icons>
       </LeftDiv>
       <RightDiv>
-        <FontAwesomeIcon icon={faCopyright} />
-        <h1>Designed & created by Michael Melis 2021</h1>
+        <StyledBackToTop smooth to="#top">
+          Scroll to top
+        </StyledBackToTop>
+
+        <h1>
+          <StyledCopy icon={faCopyright} />
+          Designed & created by Michael Melis 2021
+        </h1>
       </RightDiv>
     </StyledContact>
   );
@@ -63,8 +71,12 @@ const StyledContact = styled.div`
   background: #1d1d1d;
   width: 100%;
 `;
+const StyledBackToTop = styled(HashLink)`
+  color: #fff;
+  font-size: 0.8rem;
+`;
 const LeftDiv = styled.div`
-  justify-content: center;
+  justify-content: space-evenly;
   display: flex;
   margin-left: 10rem;
   width: 49%;
@@ -90,11 +102,15 @@ const StyledIcon = styled(FontAwesomeIcon)`
     transition: 0.2s ease-in;
   }
 `;
-
+const StyledCopy = styled(FontAwesomeIcon)`
+  margin-right: 1rem;
+`;
 const RightDiv = styled.div`
-  justify-content: center;
-  align-items: center;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
   width: 49%;
   font-size: 0.3rem;
   margin-right: 10rem;

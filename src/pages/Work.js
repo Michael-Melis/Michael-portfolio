@@ -8,18 +8,27 @@ const Work = () => {
   return (
     <StyledWork>
       <h1>Portfolio</h1>
-      <Project name="Capture" picture={capture} />
-      <Project name="Music app" picture={music} />
+      <Project
+        name="Capture"
+        picture={capture}
+        link="https://capture-portfolio.herokuapp.com/"
+      />
+      <Project
+        name="Music app"
+        picture={music}
+        link="https://music-app169.herokuapp.com/"
+      />
     </StyledWork>
   );
 };
 
 const StyledWork = styled.div`
-  min-height: 60vh;
-  h1 {
-    margin: 2rem 0rem 0rem 10rem;
-    color: #fff;
-  }
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 4rem 10rem 4rem 10rem;
 `;
 
 export default Work;

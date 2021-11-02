@@ -43,7 +43,7 @@ const AboutDiv = styled.div`
   @media (max-width: 1300px) {
     display: flex;
     flex-direction: column;
-    padding: 1rem 2rem 0rem 2rem;
+    padding: 2rem 2rem 0rem 2rem;
     h1 {
       font-size: 1rem;
     }

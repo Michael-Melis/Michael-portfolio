@@ -30,6 +30,9 @@ const Landing = () => {
 };
 const StyledLanding = styled.div`
   min-height: 100vh;
+  @media (max-width: 1300px) {
+    min-height: 67vh;
+  }
 `;
 
 const Hello = styled.div`
@@ -47,6 +50,7 @@ const Hello = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 50vh;
     h2 {
       font-size: 2rem;
       span {

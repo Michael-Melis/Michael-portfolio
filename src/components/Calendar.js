@@ -40,7 +40,7 @@ const CalendarDiv = styled.div`
       font-size: 1rem;
     }
     span {
-      margin-left: 3rem;
+      margin-left: 1rem;
     }
   }
 `;

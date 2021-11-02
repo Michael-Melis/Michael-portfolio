@@ -5,7 +5,6 @@ import profilePic from "../img/MichaelRed.png";
 const About = () => {
   return (
     <AboutDiv id="about">
-      <h1>Let me introduce myself</h1>
       <Description>
         <AboutDesc>
           <h2>
@@ -40,14 +39,19 @@ const AboutDiv = styled.div`
   display: flex;
   color: #fff;
   flex-direction: column;
-  border-radius: 5%;
+  border-radius: 3%;
   @media (max-width: 1300px) {
-    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 0rem 2rem;
+    h1 {
+      font-size: 1rem;
+    }
   }
 
   h1 {
     padding-top: 4rem;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     letter-spacing: 1rem;
@@ -59,7 +63,12 @@ const Description = styled.div`
   justify-content: center;
   margin-top: 2rem;
   width: 100%;
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+  }
   h2 {
+    width: 100%;
     font-size: 2rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -71,7 +80,7 @@ const Description = styled.div`
     opacity: 60%;
     flex: 1;
     z-index: 2;
-    overflow: hidden; //for animation to not overflow
+    overflow: hidden;
     width: 100%;
     height: 90vh;
     object-fit: cover;
@@ -80,11 +89,22 @@ const Description = styled.div`
   }
 `;
 const AboutDesc = styled.div`
-  width: 50%;
+  width: 100%;
+  @media (max-width: 1300px) {
+    h2 {
+      font-size: 1rem;
+      padding-top: 1rem;
+
+      margin: 0;
+    }
+  }
 `;
 const Chance = styled.span`
   color: #2dd1a0;
   font-size: 5rem;
+  @media (max-width: 1300px) {
+    font-size: 2rem;
+  }
 `;
 
 export default About;

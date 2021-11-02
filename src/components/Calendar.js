@@ -30,7 +30,8 @@ const Calendar = () => {
 };
 const CalendarDiv = styled.div`
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: baseline;
 
   h3 {
     font-size: 2rem;

@@ -26,9 +26,10 @@ const StyledWork = styled.div`
   display: flex;
   color: #fff;
   flex-direction: column;
-
   min-height: 90vh;
   margin: 4rem 10rem 4rem 10rem;
+  h1 {
+  }
   @media (max-width: 1300px) {
     margin: 1rem 0rem;
     min-height: 50vh;

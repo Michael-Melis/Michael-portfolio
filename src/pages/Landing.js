@@ -40,10 +40,11 @@ const Hello = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 2rem 10em 0rem 10rem;
+  align-items: center;
   font-family: "Roboto Mono", monospace, sans-serif;
   font-size: 2rem;
-  margin-bottom: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
   h2 {
     font-size: 3rem;
     span {
@@ -82,6 +83,8 @@ const Hello = styled.div`
 
 const StyledCalendar = styled.div`
   padding: 0rem 0rem 5rem 10rem;
+  display: flex;
+  align-items: center;
   @media (max-width: 1300px) {
     padding: 0rem 2rem 0rem 2rem;
   }

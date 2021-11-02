@@ -29,7 +29,7 @@ const Landing = () => {
   );
 };
 const StyledLanding = styled.div`
-  min-height: 100vh;
+  min-height: 75vh;
   @media (max-width: 1300px) {
     min-height: 67vh;
   }
@@ -43,7 +43,7 @@ const Hello = styled.div`
   align-items: center;
   font-family: "Roboto Mono", monospace, sans-serif;
   font-size: 2rem;
-  margin-top: 10rem;
+  margin-top: 18rem;
   margin-bottom: 5rem;
   h2 {
     font-size: 3rem;

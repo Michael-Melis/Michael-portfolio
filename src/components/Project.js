@@ -18,7 +18,7 @@ const StyledProject = styled.div`
   background-color: #1d1d1d;
   margin: 1rem;
   padding: 2rem;
-  border-radius: 5%;
+  border-radius: 50px;
   display: flex;
   justify-content: space-between;
   h2 {
@@ -30,13 +30,13 @@ const StyledProject = styled.div`
     flex-direction: column;
     align-items: center;
     img {
-      border-radius: 25%;
+      border-radius: 50px;
       width: 100%;
       height: 100%;
       margin: 0;
       &:hover {
         transition: ease-in-out 1s;
-        transform: scale(1.1);
+        transform: scale(1.2);
       }
     }
   }

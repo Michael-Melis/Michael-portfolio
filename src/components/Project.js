@@ -19,6 +19,26 @@ const StyledProject = styled.div`
   padding: 2rem;
   border-radius: 5%;
   display: flex;
+  h2 {
+    width: 49%;
+  }
+  a {
+    width: 49%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      border-radius: 25%;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      &:hover {
+        transition: ease-in 0.5s;
+        transform: scale(1.5);
+      }
+    }
+  }
   @media (max-width: 1300px) {
     margin: 1rem 0rem;
     padding: 2rem 2rem;
@@ -39,21 +59,6 @@ const StyledProject = styled.div`
         height: 100%;
         margin: 0;
       }
-    }
-  }
-
-  img {
-    display: flex;
-    width: 30%;
-    height: 100%;
-    border-radius: 20%;
-    cursor: pointer;
-    margin-left: 5rem;
-
-    overflow-x: hidden;
-    &:hover {
-      transform: scale(1.3);
-      transition: 0.4s ease-in;
     }
   }
 `;

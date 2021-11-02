@@ -44,6 +44,17 @@ const Hello = styled.div`
   font-family: "Roboto Mono", monospace, sans-serif;
   font-size: 2rem;
   margin-bottom: 10rem;
+  h2 {
+    font-size: 3rem;
+    span {
+      font-size: 3rem;
+      color: #2dd1a0;
+    }
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+  }
   @media (max-width: 1300px) {
     margin: 5rem 2rem 4rem 2rem;
     display: flex;

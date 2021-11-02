@@ -70,6 +70,10 @@ const StyledContact = styled.div`
   font-family: "Roboto Mono", sans-serif;
   background: #1d1d1d;
   width: 100%;
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 const StyledBackToTop = styled(HashLink)`
   color: #fff;
@@ -79,8 +83,12 @@ const LeftDiv = styled.div`
   justify-content: space-evenly;
   display: flex;
   margin-left: 10rem;
-  width: 49%;
   flex-direction: column;
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+  }
   h1 {
     display: flex;
     font-size: 1rem;
@@ -103,17 +111,20 @@ const StyledIcon = styled(FontAwesomeIcon)`
   }
 `;
 const StyledCopy = styled(FontAwesomeIcon)`
-  margin-right: 1rem;
+  margin-right: 0.2rem;
 `;
 const RightDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
-  width: 49%;
   font-size: 0.3rem;
   margin-right: 10rem;
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+  }
   h1 {
     margin-left: 1rem;
   }

@@ -40,8 +40,10 @@ const AboutDiv = styled.div`
   display: flex;
   color: #fff;
   flex-direction: column;
-
   border-radius: 5%;
+  @media (max-width: 1300px) {
+    padding: 1rem 2rem;
+  }
 
   h1 {
     padding-top: 4rem;

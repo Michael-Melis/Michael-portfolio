@@ -13,7 +13,7 @@ import { HashLink } from "react-router-hash-link";
 
 const Contact = () => {
   return (
-    <StyledContact>
+    <StyledContact id="contact">
       <LeftDiv>
         <h1>Getting in touch is easy!</h1>
         <Icons>

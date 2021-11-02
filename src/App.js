@@ -8,6 +8,8 @@ import Work from "./pages/Work";
 //styled components
 import styled from "styled-components";
 //import components
+//importHaslink
+import { HashLink } from "react-router-hash-link";
 
 function App() {
   return (
@@ -15,9 +17,16 @@ function App() {
       <GlobalStyle />
       <TopMenu>
         <ul>
-          <li>about</li>
-          <li>work</li>
-          <li>contact me</li>
+          <HashLink smooth to="#about">
+            <li>about</li>
+          </HashLink>
+
+          <HashLink smooth to="#work">
+            <li>work</li>
+          </HashLink>
+          <HashLink smooth to="#contact">
+            <li>contact me</li>
+          </HashLink>
           <li>resume</li>
         </ul>
       </TopMenu>
@@ -51,6 +60,7 @@ const TopMenu = styled.div`
     list-style: none;
     margin: 1rem;
     cursor: pointer;
+    color: #fff;
     &:hover {
       color: #2dd1a0;
       transition: 0.5s;

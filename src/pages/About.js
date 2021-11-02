@@ -4,7 +4,7 @@ import profilePic from "../img/MichaelRed.png";
 
 const About = () => {
   return (
-    <AboutDiv>
+    <AboutDiv id="about">
       <h1>Let me introduce myself</h1>
       <Description>
         <AboutDesc>

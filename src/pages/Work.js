@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 const Work = () => {
   return (
-    <StyledWork>
+    <StyledWork id="work">
       <h1>Portfolio</h1>
       <Project
         name="Capture"
@@ -27,7 +27,7 @@ const StyledWork = styled.div`
   color: #fff;
   flex-direction: column;
   justify-content: space-between;
-
+  min-height: 90vh;
   margin: 4rem 10rem 4rem 10rem;
 `;
 

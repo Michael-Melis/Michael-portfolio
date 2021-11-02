@@ -16,18 +16,20 @@ function App() {
     <div>
       <GlobalStyle />
       <TopMenu>
+        <StyledLogo smooth to="#">
+          MICHAEL MELIS
+        </StyledLogo>
         <ul>
           <HashLink smooth to="#about">
-            <li>about</li>
+            <li>About</li>
           </HashLink>
-
           <HashLink smooth to="#work">
-            <li>work</li>
+            <li>Work</li>
           </HashLink>
           <HashLink smooth to="#contact">
-            <li>contact me</li>
+            <li>Contact me</li>
           </HashLink>
-          <li>resume</li>
+          <li>Resume</li>
         </ul>
       </TopMenu>
       <Landing />
@@ -40,9 +42,9 @@ function App() {
 const TopMenu = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-content: center;
-
+  align-items: center;
   position: sticky;
   top: 0;
 
@@ -66,6 +68,12 @@ const TopMenu = styled.div`
       transition: 0.5s;
     }
   }
+`;
+const StyledLogo = styled(HashLink)`
+  font-size: 2rem;
+  color: #2dd1a0;
+  font-family: "Orbitron", sans-serif;
+  align-items: center;
 `;
 
 export default App;

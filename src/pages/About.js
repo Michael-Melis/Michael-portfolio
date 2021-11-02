@@ -33,14 +33,14 @@ const About = () => {
   );
 };
 const AboutDiv = styled.div`
-  background: #fff;
+  background: #dbdbdb;
   width: 100%;
   padding: 2rem 10rem 0rem 10rem;
   font-family: "Roboto-mono", sans-serif;
   display: flex;
 
   flex-direction: column;
-  min-height: 70vh;
+
   border-radius: 5%;
 
   h1 {
@@ -60,6 +60,7 @@ const Description = styled.div`
   h2 {
     font-size: 2rem;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     span {
       color: #2dd1a0;
     }
@@ -69,8 +70,9 @@ const Description = styled.div`
     z-index: 2;
     overflow: hidden; //for animation to not overflow
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     object-fit: cover;
+    bottom: 0;
     border-radius: 5%;
   }
 `;

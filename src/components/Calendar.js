@@ -39,6 +39,7 @@ const CalendarDiv = styled.div`
     font-family: "Roboto Mono", sans-serif;
     @media (max-width: 1300px) {
       font-size: 1rem;
+      padding-bottom: 5rem;
     }
     span {
       margin-left: 1rem;

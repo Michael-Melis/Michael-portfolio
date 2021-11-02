@@ -36,7 +36,9 @@ const CalendarDiv = styled.div`
     font-size: 2rem;
     color: #fff;
     font-family: "Roboto Mono", sans-serif;
-
+    @media (max-width: 1300px) {
+      font-size: 1rem;
+    }
     span {
       margin-left: 3rem;
     }
@@ -45,6 +47,9 @@ const CalendarDiv = styled.div`
 const MainDay = styled.div`
   font-size: 15rem;
   color: #fff;
+  @media (max-width: 1300px) {
+    font-size: 4rem;
+  }
 `;
 
 export default Calendar;

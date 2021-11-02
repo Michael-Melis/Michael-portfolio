@@ -47,8 +47,13 @@ const TopMenu = styled.div`
   align-items: center;
   position: sticky;
   top: 0;
-
+  z-index: 3;
   background: #1d1d1d;
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
   ul {
     display: flex;

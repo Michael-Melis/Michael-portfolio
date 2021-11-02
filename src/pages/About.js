@@ -38,7 +38,7 @@ const AboutDiv = styled.div`
   padding: 2rem 10rem 0rem 10rem;
   font-family: "Roboto-mono", sans-serif;
   display: flex;
-
+  color: #fff;
   flex-direction: column;
 
   border-radius: 5%;

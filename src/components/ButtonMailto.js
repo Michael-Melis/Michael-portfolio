@@ -16,7 +16,6 @@ const ButtonMailto = ({ mailto, label }) => {
   );
 };
 const StyledButton = styled.div`
-  width: 25rem;
   text-decoration: none;
   color: #fff;
   display: flex;

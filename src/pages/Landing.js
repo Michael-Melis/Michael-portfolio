@@ -7,24 +7,21 @@ const Landing = () => {
   return (
     <StyledLanding>
       <Hello>
-        <h2>Hello.</h2>
-        <h2>I am</h2>
         <h2>
-          <span>MICHAEL</span>
+          Hello. I am <span>MICHAEL</span>
         </h2>
         <h3>Front-End developer</h3>
-      </Hello>
-      <SecondMain>
-        <h2>WE CAN BUILD SOMETHING</h2>
+
         <h2>
-          <span>TOGETHER</span>
+          WE CAN BUILD SOMETHING <span>TOGETHER</span>
         </h2>
 
         <ButtonMailto
           label="LET'S CHAT ABOUT IT"
           mailto="mailto:michael.melis@gmail.com?subject=Let's build something together"
         />
-      </SecondMain>
+      </Hello>
+
       <StyledCalendar>
         <Calendar />
       </StyledCalendar>
@@ -45,10 +42,11 @@ const Hello = styled.div`
   font-size: 2rem;
   margin-bottom: 10rem;
   @media (max-width: 1300px) {
-    margin: 1rem 2rem 1rem 2rem;
+    margin: 5rem 2rem 4rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     h2 {
       font-size: 2rem;
       span {
@@ -58,6 +56,7 @@ const Hello = styled.div`
     }
     h3 {
       font-size: 1rem;
+      margin-bottom: 5rem;
     }
   }
 
@@ -66,13 +65,6 @@ const Hello = styled.div`
   }
 `;
 
-const SecondMain = styled(Hello)`
-  h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-`;
 const StyledCalendar = styled.div`
   padding: 0rem 0rem 5rem 10rem;
   @media (max-width: 1300px) {

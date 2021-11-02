@@ -22,6 +22,9 @@ const StyledButton = styled.div`
   align-items: center;
   padding-top: 2rem;
   font-size: 2rem;
+  @media (max-width: 1300px) {
+    font-size: 1rem;
+  }
 
   &:hover {
     color: #2dd1a0;

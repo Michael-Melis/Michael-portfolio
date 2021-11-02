@@ -21,8 +21,8 @@ const Calendar = () => {
   return (
     <CalendarDiv>
       <MainDay>{`${today.getDay()}  `}</MainDay>
+      <h3>{`${monthNames[today.getMonth()]}  ${today.getFullYear()} `} </h3>
       <h3>
-        {`.${monthNames[today.getMonth()]}. ${today.getFullYear()} `}{" "}
         <span> I am currently avalaible for work</span>
       </h3>
     </CalendarDiv>
@@ -30,7 +30,7 @@ const Calendar = () => {
 };
 const CalendarDiv = styled.div`
   display: flex;
-  align-items: baseline;
+  align-items: center;
 
   h3 {
     font-size: 2rem;

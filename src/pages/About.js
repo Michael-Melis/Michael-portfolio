@@ -35,12 +35,12 @@ const About = () => {
 const AboutDiv = styled.div`
   background: #fff;
   width: 100%;
-  padding: 2rem 0rem 0rem 10rem;
+  padding: 2rem 10rem 0rem 10rem;
   font-family: "Roboto-mono", sans-serif;
   display: flex;
 
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 70vh;
   border-radius: 5%;
 
   h1 {

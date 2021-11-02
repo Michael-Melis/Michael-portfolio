@@ -20,28 +20,28 @@ const Contact = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <StyledIcon size="2x" icon={faGithubSquare} />
+            <StyledIcon icon={faGithubSquare} />
           </a>
           <a
             href="https://www.linkedin.com/in/michael-meli%C5%A1-0a7348102/"
             target="_blank"
             rel="noreferrer"
           >
-            <StyledIcon size="2x" icon={faLinkedin} />
+            <StyledIcon icon={faLinkedin} />
           </a>
           <a
             href="https://www.instagram.com/michaelmelis/"
             target="_blank"
             rel="noreferrer"
           >
-            <StyledIcon size="2x" icon={faInstagramSquare} />
+            <StyledIcon icon={faInstagramSquare} />
           </a>
           <a
             href="https://twitter.com/MichaelMeli1"
             target="_blank"
             rel="noreferrer"
           >
-            <StyledIcon size="2x" icon={faTwitterSquare} />
+            <StyledIcon icon={faTwitterSquare} />
           </a>
         </Icons>
       </LeftDiv>
@@ -54,7 +54,7 @@ const Contact = () => {
 };
 
 const StyledContact = styled.div`
-  min-height: 30vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -71,13 +71,14 @@ const LeftDiv = styled.div`
   flex-direction: column;
   h1 {
     display: flex;
+    font-size: 1rem;
     justify-content: center;
     margin-bottom: 1rem;
   }
 `;
 const Icons = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 `;
 const StyledIcon = styled(FontAwesomeIcon)`
   text-decoration: none;
@@ -95,7 +96,7 @@ const RightDiv = styled.div`
   align-items: center;
   display: flex;
   width: 49%;
-  font-size: 0.5rem;
+  font-size: 0.3rem;
   margin-right: 10rem;
   h1 {
     margin-left: 1rem;

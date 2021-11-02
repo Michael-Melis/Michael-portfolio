@@ -20,11 +20,18 @@ const StyledProject = styled.div`
   border-radius: 5%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  h2 {
+    margin-left: 2rem;
+  }
   a {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   img {
     display: flex;
+
     width: 30%;
     height: 100%;
     border-radius: 20%;

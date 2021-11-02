@@ -4,6 +4,7 @@ import GlobalStyle from "./components/GlobalStyles";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Work from "./pages/Work";
 //styled components
 import styled from "styled-components";
 //import components
@@ -22,6 +23,7 @@ function App() {
       </TopMenu>
       <Landing />
       <About />
+      <Work />
       <Contact />
     </div>
   );
@@ -31,10 +33,11 @@ const TopMenu = styled.div`
   flex-direction: row;
   justify-content: flex-end;
   align-content: center;
+
   position: sticky;
   top: 0;
+
   background: #1d1d1d;
-  width: 100%;
 
   ul {
     display: flex;

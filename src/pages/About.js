@@ -61,7 +61,7 @@ const Description = styled.div`
     font-size: 2rem;
     margin-top: 5rem;
     span {
-      color: #fe6f6e;
+      color: #2dd1a0;
     }
   }
   img {
@@ -78,7 +78,7 @@ const AboutDesc = styled.div`
   width: 50%;
 `;
 const Chance = styled.span`
-  color: #fe6f6e;
+  color: #2dd1a0;
   font-size: 5rem;
 `;
 

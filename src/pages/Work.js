@@ -7,7 +7,7 @@ import styled from "styled-components";
 const Work = () => {
   return (
     <StyledWork id="work">
-      <h1>Portfolio</h1>
+      <h1>My Work</h1>
       <Project
         name="Capture"
         picture={capture}
@@ -26,9 +26,21 @@ const StyledWork = styled.div`
   display: flex;
   color: #fff;
   flex-direction: column;
-  justify-content: space-between;
+
   min-height: 90vh;
   margin: 4rem 10rem 4rem 10rem;
+  @media (max-width: 1300px) {
+    margin: 1rem 0rem;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    h1 {
+      margin-bottom: 2rem;
+    }
+  }
 `;
 
 export default Work;

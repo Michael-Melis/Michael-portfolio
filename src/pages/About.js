@@ -22,7 +22,7 @@ const About = () => {
           </h2>
           <h2>
             I am <span>TEAM</span> oriented <span>STRONG</span> individual
-            waiting for the <Chance>Chance</Chance> to prove myself.
+            waiting for the <Chance>chance</Chance> to prove myself.
           </h2>
         </AboutDesc>
         <div>
@@ -33,7 +33,7 @@ const About = () => {
   );
 };
 const AboutDiv = styled.div`
-  background: #dbdbdb;
+  background: #1d1d1d;
   width: 100%;
   padding: 2rem 10rem 0rem 10rem;
   font-family: "Roboto-mono", sans-serif;
@@ -66,6 +66,7 @@ const Description = styled.div`
     }
   }
   img {
+    opacity: 60%;
     flex: 1;
     z-index: 2;
     overflow: hidden; //for animation to not overflow

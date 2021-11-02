@@ -43,7 +43,6 @@ const Hello = styled.div`
   margin: 2rem 10em 0rem 10rem;
   font-family: "Roboto Mono", monospace, sans-serif;
 
-  letter-spacing: 1rem;
   font-size: 2rem;
   margin-bottom: 10rem;
   h1 {

@@ -7,7 +7,6 @@ import Contact from "./pages/Contact";
 //styled components
 import styled from "styled-components";
 //import components
-import ButtonMailto from "./components/ButtonMailto";
 
 function App() {
   return (

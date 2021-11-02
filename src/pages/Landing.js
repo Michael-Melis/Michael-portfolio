@@ -54,21 +54,7 @@ const Hello = styled.div`
     color: #2dd1a0;
   }
 `;
-const MailToButton = styled(ButtonMailto)`
-  background: #fff;
-  text-decoration: none;
-  cursor: pointer;
-  width: 8rem;
-  height: 3rem;
-  border-radius: 5%;
-  box-shadow: 1px 1px 5px #2dd1a0;
-  font-family: "Roboto Mono", sans-serif;
-  &:hover {
-    color: black;
-    background-color: #2dd1a0;
-    transition: 0.5s;
-  }
-`;
+
 const SecondMain = styled(Hello)`
   button {
     background: #fff;

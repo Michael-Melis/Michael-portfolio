@@ -43,7 +43,7 @@ const AboutDiv = styled.div`
   @media (max-width: 1300px) {
     display: flex;
     flex-direction: column;
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 1rem 2rem 0rem 2rem;
     h1 {
       font-size: 1rem;
     }
@@ -61,7 +61,7 @@ const Description = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 2rem;
+
   width: 100%;
   @media (max-width: 1300px) {
     display: flex;

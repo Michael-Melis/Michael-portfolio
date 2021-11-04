@@ -73,6 +73,7 @@ const StyledContact = styled.div`
   @media (max-width: 1300px) {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
   }
 `;
 const StyledBackToTop = styled(HashLink)`
@@ -93,7 +94,6 @@ const LeftDiv = styled.div`
     display: flex;
     font-size: 1rem;
     justify-content: center;
-    margin-bottom: 1rem;
   }
 `;
 const Icons = styled.div`
@@ -123,7 +123,8 @@ const RightDiv = styled.div`
   @media (max-width: 1300px) {
     display: flex;
     flex-direction: column;
-    margin: 1rem 2rem;
+
+    margin: 0rem 2rem;
   }
   h1 {
     margin-left: 1rem;

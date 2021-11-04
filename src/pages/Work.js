@@ -31,12 +31,12 @@ const StyledWork = styled.div`
   h1 {
   }
   @media (max-width: 1300px) {
-    margin: 1rem 0rem;
+    margin: 3.5rem 0rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-space-between;
 
     width: 100%;
     h1 {

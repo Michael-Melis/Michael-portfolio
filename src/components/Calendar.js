@@ -20,38 +20,49 @@ const Calendar = () => {
 
   return (
     <CalendarDiv>
-      <MainDay>{`${today.getDay()}  `}</MainDay>
-      <h3>{`${monthNames[today.getMonth()]}  ${today.getFullYear()} `} </h3>
-      <h3>
-        <span> I am currently avalaible for work</span>
-      </h3>
+      <MainDay>
+        {`${today.getDay()}  `}
+        <h3>{`${monthNames[today.getMonth()]}  ${today.getFullYear()} `} </h3>
+        <h3>
+          <span> I am currently avalaible for hire</span>
+        </h3>
+      </MainDay>
     </CalendarDiv>
   );
 };
 const CalendarDiv = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+
+  margin: 0rem 1rem;
 
   h3 {
     font-size: 2rem;
     color: #fff;
     font-family: "Roboto Mono", sans-serif;
     @media (max-width: 1300px) {
-      font-size: 1rem;
-      padding-bottom: 5rem;
-    }
-    span {
-      margin-left: 1rem;
+      font-size: 0.8rem;
+      align-items: baseline;
+      span {
+        margin-left: 1rem;
+      }
     }
   }
 `;
 const MainDay = styled.div`
   font-size: 15rem;
   color: #2dd1a0;
+  display: flex;
+  align-items: baseline;
+  span {
+    margin-left: 5rem;
+  }
 
   @media (max-width: 1300px) {
-    font-size: 4rem;
+    font-size: 5rem;
+
+    display: flex;
+    align-items: center;
   }
 `;
 

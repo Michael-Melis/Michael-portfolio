@@ -17,6 +17,7 @@ const Project = ({ name, picture, link }) => {
 const StyledProject = styled.div`
   background-color: #1d1d1d;
   margin: 1rem;
+  color: #fff;
   padding: 2rem;
   border-radius: 50px;
   display: flex;

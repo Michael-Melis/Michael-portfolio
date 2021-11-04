@@ -16,7 +16,7 @@ const Work = () => {
       <Project
         name="Music app"
         picture={music}
-        link="https://music-app169.herokuapp.com/"
+        link="https://music-app-wave.herokuapp.com/"
       />
     </StyledWork>
   );

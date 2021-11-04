@@ -26,7 +26,7 @@ const StyledWork = styled.div`
   display: flex;
   color: #fff;
   flex-direction: column;
-  min-height: 90vh;
+
   margin: 4rem 10rem 4rem 10rem;
   h1 {
   }

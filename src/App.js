@@ -13,6 +13,12 @@ import styled from "styled-components";
 import { HashLink } from "react-router-hash-link";
 
 function App() {
+  const scrollWidthOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
+
   return (
     <div>
       <GlobalStyle />
@@ -21,17 +27,17 @@ function App() {
           MICHAEL MELIS
         </StyledLogo>
         <ul>
-          <HashLink smooth to="#about">
+          <HashLink smooth to="#about" scroll={(el) => scrollWidthOffset(el)}>
             <li>About</li>
           </HashLink>
-          <HashLink smooth to="#work">
+          <HashLink smooth to="#work" scroll={(el) => scrollWidthOffset(el)}>
             <li>Work</li>
+          </HashLink>
+          <HashLink smooth to="#resume" scroll={(el) => scrollWidthOffset(el)}>
+            <li>Resume</li>
           </HashLink>
           <HashLink smooth to="#contact">
             <li>Contact me</li>
-          </HashLink>
-          <HashLink smooth to="#resume">
-            <li>Resume</li>
           </HashLink>
         </ul>
       </TopMenu>

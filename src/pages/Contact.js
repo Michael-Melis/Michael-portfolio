@@ -18,7 +18,7 @@ const Contact = () => {
         <h1>Getting in touch is easy!</h1>
         <Icons>
           <a
-            href="https://github.com/MichaelMelis169"
+            href="https://github.com/Michael-Melis"
             target="_blank"
             rel="noreferrer"
           >

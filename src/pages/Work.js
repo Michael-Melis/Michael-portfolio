@@ -32,14 +32,15 @@ const StyledWork = styled.div`
   }
   @media (max-width: 1300px) {
     margin: 1rem 0rem;
-    min-height: 50vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     width: 100%;
     h1 {
-      margin-bottom: 2rem;
+      margin-bottom: 0rem;
     }
   }
 `;

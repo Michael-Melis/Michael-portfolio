@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import profilePic from "../img/MichaelRed.png";
+import profilePic from "../img/michael.png";
 
 const About = () => {
   return (
@@ -81,8 +81,8 @@ const Description = styled.div`
     flex: 1;
     z-index: 2;
     overflow: hidden;
-    width: 100%;
-    height: 90vh;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
     bottom: 0;
     border-radius: 5%;

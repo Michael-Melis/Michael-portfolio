@@ -5,6 +5,7 @@ import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
+import Resume from "./pages/Resume";
 //styled components
 import styled from "styled-components";
 //import components
@@ -29,12 +30,15 @@ function App() {
           <HashLink smooth to="#contact">
             <li>Contact me</li>
           </HashLink>
-          <li>Resume</li>
+          <HashLink smooth to="#resume">
+            <li>Resume</li>
+          </HashLink>
         </ul>
       </TopMenu>
       <Landing />
       <About />
       <Work />
+      <Resume />
       <Contact />
     </div>
   );

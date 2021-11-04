@@ -8,9 +8,14 @@ const Landing = () => {
     <StyledLanding>
       <Hello>
         <h2>
-          Hello. I am <span>MICHAEL</span>
+          {" "}
+          <span> Hello.</span>{" "}
         </h2>
-        <h3>Front-End developer</h3>
+        <h2>I am MICHAEL</h2>
+        <h3>
+          {" "}
+          <span> Front-End developer</span>
+        </h3>
 
         <h2>
           WE CAN BUILD SOMETHING <span>TOGETHER</span>
@@ -47,6 +52,7 @@ const Hello = styled.div`
   margin-bottom: 5rem;
   h2 {
     font-size: 3rem;
+    text-align: center;
     span {
       font-size: 3rem;
       color: #2dd1a0;
@@ -65,14 +71,15 @@ const Hello = styled.div`
     height: 50vh;
     h2 {
       font-size: 2rem;
-      span {
-        font-size: 2.5rem;
-        color: #2dd1a0;
-      }
     }
     h3 {
-      font-size: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
       margin-bottom: 5rem;
+      span {
+        font-size: 1.5rem;
+        color: #2dd1a0;
+      }
     }
   }
 

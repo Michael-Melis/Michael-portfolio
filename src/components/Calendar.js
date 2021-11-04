@@ -48,7 +48,8 @@ const CalendarDiv = styled.div`
 `;
 const MainDay = styled.div`
   font-size: 15rem;
-  color: #fff;
+  color: #2dd1a0;
+
   @media (max-width: 1300px) {
     font-size: 4rem;
   }

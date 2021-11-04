@@ -43,6 +43,7 @@ const AboutDiv = styled.div`
   @media (max-width: 1300px) {
     display: flex;
     flex-direction: column;
+    text-align: center;
     padding: 1rem 2rem 0rem 2rem;
     h1 {
       font-size: 1rem;
@@ -61,11 +62,15 @@ const Description = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   width: 100%;
-  @media (max-width: 1300px) {
-    display: flex;
-    flex-direction: column;
+  img {
+    opacity: 60%;
+    padding-left: 1rem;
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+    border-radius: 5%;
   }
   h2 {
     width: 100%;
@@ -76,16 +81,18 @@ const Description = styled.div`
       color: #2dd1a0;
     }
   }
-  img {
-    opacity: 60%;
-    flex: 1;
-    z-index: 2;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    bottom: 0;
-    border-radius: 5%;
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+    img {
+      opacity: 60%;
+
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+
+      border-radius: 5%;
+    }
   }
 `;
 const AboutDesc = styled.div`

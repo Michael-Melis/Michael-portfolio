@@ -4,7 +4,7 @@ export const StyledButton = styled.div`
   color: #fff;
   display: flex;
   align-items: center;
-  padding-top: 2rem;
+
   font-size: 2rem;
   @media (max-width: 1300px) {
     font-size: 1.5rem;

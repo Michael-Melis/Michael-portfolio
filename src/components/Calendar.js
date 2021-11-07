@@ -21,7 +21,7 @@ const Calendar = () => {
   return (
     <CalendarDiv>
       <MainDay>
-        {`${today.getDay()}  `}
+        {`${today.getDate()}  `}
         <h3>{`${monthNames[today.getMonth()]}  ${today.getFullYear()} `} </h3>
         <h3>
           <span> I am currently avalaible for hire</span>

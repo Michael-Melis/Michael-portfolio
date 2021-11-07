@@ -39,7 +39,7 @@ const AboutDiv = styled.div`
   display: flex;
   color: #fff;
   flex-direction: column;
-  border-radius: 3%;
+  border-radius: 50px;
   @media (max-width: 1300px) {
     display: flex;
     flex-direction: column;
@@ -90,8 +90,6 @@ const Description = styled.div`
       max-width: 100%;
       height: auto;
       object-fit: contain;
-
-      border-radius: 5%;
     }
   }
 `;

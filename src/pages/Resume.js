@@ -64,7 +64,7 @@ const Resume = () => {
             </div>
           </div>
         </LeftDiv>
-        <div>
+        <RightDiv>
           <h2>FRONT-END SKILLS</h2>
           <SkillDiv>
             <Skills skill="Figma" />
@@ -226,7 +226,7 @@ const Resume = () => {
               <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
-        </div>
+        </RightDiv>
       </Container>
     </div>
   );
@@ -254,6 +254,29 @@ const Container = styled.div`
     color: #2dd1a0;
     margin-top: 0.5rem;
   }
+  @media (max-width: 970px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+    h3 {
+      font-weight: bolder;
+      color: #2dd1a0;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      color: #2dd1a0;
+      margin-top: 0.5rem;
+    }
+  }
 `;
 
 const LeftDiv = styled.div`
@@ -262,9 +285,11 @@ const LeftDiv = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  h2 {
-    font-size: 2rem;
-  }
+`;
+const RightDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding-right: 14%;
 `;
 const SkillDiv = styled.div`
   display: flex;

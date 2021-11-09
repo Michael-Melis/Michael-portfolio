@@ -68,7 +68,7 @@ const Resume = () => {
         <RightDiv>
           <h2>FRONT-END SKILLS</h2>
           <SkillDiv>
-            <Skills skill="Figma" />
+            <Skills skill="FIGMA" />
             <SkillPoints>
               <GreenCircle icon={faCircle} />
               <GreenCircle icon={faCircle} />

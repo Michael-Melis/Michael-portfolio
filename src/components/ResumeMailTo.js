@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { StyledButton, StyledResumeMailToButton } from "../styles";
+import { StyledResumeMailToButton } from "../styles";
 
-const ButtonMailto = ({ mailto, label }) => {
+const ResumeMailto = ({ mailto, label }) => {
   return (
     <Link
       to="#"
@@ -11,9 +11,9 @@ const ButtonMailto = ({ mailto, label }) => {
         e.preventDefault();
       }}
     >
-      <StyledButton>{label}</StyledButton>
+      <StyledResumeMailToButton>{label}</StyledResumeMailToButton>
     </Link>
   );
 };
 
-export default ButtonMailto;
+export default ResumeMailto;

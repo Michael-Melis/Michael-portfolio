@@ -2,10 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
-import ButtonMailto from "./ButtonMailto";
+import ResumeMailto from "./ResumeMailTo";
 import styled from "styled-components";
-import { StyledButton } from "../styles";
-import pic from "../img/michael.png";
+import { StyledResumeMailToButton } from "../styles";
 
 const HeadResume = () => {
   return (
@@ -15,12 +14,12 @@ const HeadResume = () => {
       <StyledContacts>
         <StyledIcons>
           <StyledIcon size="2x" icon={faPaperPlane} />
-          <MailButton>
-            <ButtonMailto
+          <StyledResumeMailToButton>
+            <ResumeMailto
               label="michael.melis169@gmail.com"
               mailto="mailto:michael.melis@gmail.com?subject=Let's build something together"
             />
-          </MailButton>
+          </StyledResumeMailToButton>
         </StyledIcons>
         <StyledIcons>
           <StyledIcon size="2x" icon={faMobileAlt} />
@@ -42,7 +41,6 @@ const StyledHeadResume = styled.div`
   background: #2dd1a0;
   width: 50%;
   color: #fff;
-
   font-weight: lighter;
 
   h1 {
@@ -78,6 +76,5 @@ const StyledIcons = styled.div`
 const StyledIcon = styled(FontAwesomeIcon)`
   margin-right: 1rem;
 `;
-const MailButton = styled(StyledButton)``;
 
 export default HeadResume;

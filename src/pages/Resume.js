@@ -69,161 +69,161 @@ const Resume = () => {
           <SkillDiv>
             <Skills skill="Figma" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="HTML5" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="CSS3" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="JAVASCRIPT" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="REACT JS" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="RECOIL JS" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="STYLED COMPONENTS" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="GITHUB" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="SASS" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="SEO" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="RESPONSIVE DESIGN" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="GIT/VERSION CONTROL" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="ADOBE PHOTOSHOP" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="ADOBE LIGHTROOM" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="ADOBE PREMIERE PRO" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
             <Skills skill="VIRTUAL CUT PRO" />
             <SkillPoints>
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
-              <FontAwesomeIcon icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <GreenCircle icon={faCircle} />
+              <WhiteCircle icon={faCircle} />
             </SkillPoints>
           </SkillDiv>
         </div>
@@ -232,15 +232,17 @@ const Resume = () => {
   );
 };
 const Container = styled.div`
+  width: 80%;
   color: #fff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 2rem 10rem;
-  justify-content: space-between;
+  margin: 10rem 10rem;
+  justify-content: space-evenly;
   h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
   h3 {
     font-weight: bolder;
@@ -253,11 +255,12 @@ const Container = styled.div`
     margin-top: 0.5rem;
   }
 `;
+
 const LeftDiv = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   h2 {
     font-size: 2rem;
@@ -269,6 +272,7 @@ const SkillDiv = styled.div`
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
+  margin: 1rem 0rem;
 `;
 const SkillPoints = styled.div`
   display: flex;
@@ -277,8 +281,10 @@ const SkillPoints = styled.div`
 `;
 const GreenCircle = styled(FontAwesomeIcon)`
   color: #2dd1a0;
+  margin-right: 0.4rem;
 `;
 const WhiteCircle = styled(FontAwesomeIcon)`
   color: #fff;
+  margin-right: 0.4rem;
 `;
 export default Resume;

@@ -4,6 +4,7 @@ import Skills from "../components/Skills";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Resume = () => {
   return (
@@ -228,6 +229,19 @@ const Resume = () => {
           </SkillDiv>
         </RightDiv>
       </Container>
+      <StyledCode>
+        <h2>MY CODE</h2>
+        <div>
+          <GreenCircle size="2x" icon={faGithub} />
+          <a
+            href="https://github.com/Michael-Melis"
+            target="_blank"
+            rel="noreferrer"
+          >
+            www.github.com/Michael-Melis
+          </a>
+        </div>
+      </StyledCode>
     </div>
   );
 };
@@ -272,7 +286,7 @@ const Container = styled.div`
       margin-top: 1rem;
     }
     p {
-      font-size: 1rem;
+      font-size: 0.7rem;
       color: #2dd1a0;
       margin-top: 0.5rem;
     }
@@ -311,5 +325,20 @@ const GreenCircle = styled(FontAwesomeIcon)`
 const WhiteCircle = styled(FontAwesomeIcon)`
   color: #fff;
   margin-right: 0.4rem;
+`;
+const StyledCode = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 4rem;
+  a {
+    color: #fff;
+    margin-left: 1rem;
+    &:hover {
+      color: #2dd1a0;
+    }
+  }
 `;
 export default Resume;

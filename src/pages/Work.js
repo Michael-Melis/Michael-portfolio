@@ -25,6 +25,8 @@ const Work = () => {
 const StyledWork = styled.h1`
   color: #fff;
   text-align: center;
+  margin: 2rem auto;
+  font-size: 2rem;
 `;
 
 export default Work;

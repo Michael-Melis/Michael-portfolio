@@ -22,7 +22,9 @@ const StyledProject = styled.div`
   border-radius: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   h2 {
+    margin-left: 2rem;
   }
   a {
     width: 49%;
@@ -35,9 +37,10 @@ const StyledProject = styled.div`
       width: 100%;
       height: 100%;
       margin: 0;
+      transition: ease-in 0.4s;
       &:hover {
-        transition: ease-in-out 1s;
-        transform: scale(1.2);
+        transition: ease-in 0.4s;
+        transform: scale(1.1);
       }
     }
   }

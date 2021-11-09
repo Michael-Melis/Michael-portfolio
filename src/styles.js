@@ -24,7 +24,7 @@ export const StyledResumeMailToButton = styled.div`
   display: flex;
   align-items: center;
   font-size: 2rem;
-  padding: 0rem 1rem;
+
   @media (max-width: 1300px) {
     font-size: 1rem;
     width: 100%;

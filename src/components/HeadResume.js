@@ -71,9 +71,12 @@ const StyledIcons = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
+
   align-items: center;
 `;
 const StyledIcon = styled(FontAwesomeIcon)`
+  display: flex;
+  justify-content: space-between;
   margin-right: 1rem;
 `;
 

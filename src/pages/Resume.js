@@ -298,6 +298,10 @@ const LeftDiv = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  @media (max-width: 970px) {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
 `;
 const RightDiv = styled.div`
   display: flex;
@@ -337,6 +341,9 @@ const StyledCode = styled.div`
     margin-left: 1rem;
     &:hover {
       color: #2dd1a0;
+    }
+    @media (max-width: 970px) {
+      font-size: 1rem;
     }
   }
 `;

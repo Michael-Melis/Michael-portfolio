@@ -246,12 +246,11 @@ const Resume = () => {
   );
 };
 const Container = styled.div`
-  width: 80%;
   color: #fff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 10rem 10rem;
+  margin: 4rem 5rem;
   justify-content: space-evenly;
   h2 {
     font-size: 2rem;
@@ -303,7 +302,6 @@ const LeftDiv = styled.div`
 const RightDiv = styled.div`
   display: flex;
   flex-direction: column;
-  padding-right: 14%;
 `;
 const SkillDiv = styled.div`
   display: flex;
@@ -332,6 +330,7 @@ const StyledCode = styled.div`
   align-items: center;
   font-size: 1.5rem;
   color: #fff;
+  margin-top: 10vh;
   margin-bottom: 4rem;
   a {
     color: #fff;

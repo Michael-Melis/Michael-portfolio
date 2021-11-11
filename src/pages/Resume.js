@@ -218,7 +218,7 @@ const Resume = () => {
             </SkillPoints>
           </SkillDiv>
           <SkillDiv>
-            <Skills skill="VIRTUAL CUT PRO" />
+            <Skills skill="FINAL CUT PRO" />
             <SkillPoints>
               <GreenCircle icon={faCircle} />
               <GreenCircle icon={faCircle} />
